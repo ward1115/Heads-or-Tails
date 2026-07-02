@@ -7,6 +7,11 @@ int main(){
     int i;
 
     srand(time(NULL));
+
+    char name[100];
+    printf("Who are you?\n> ");
+    scanf("%99s", name);
+    printf("Hello, %s!\n", name);
     
     printf("Tossing a coin...\n");
     for(i=0;i<3;i++){
